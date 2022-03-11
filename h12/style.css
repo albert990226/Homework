@@ -71,3 +71,32 @@ p
 
 
 
+.mybox1
+{
+    font-size: 24pt;
+    background-color: #90EE90;
+}
+
+.mybox2
+{
+	width: 500px;
+	background-color: #FFFF00;
+}
+
+.mybox3 
+{
+	width: 400px;
+	background-color: #1E90FF;
+}
+
+.mybox1 p, .mybox2 p
+{
+    border: none;
+}
+
+.mybox3 p
+{
+    border: 1px solid black;
+}
+
+
