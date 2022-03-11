@@ -1,0 +1,90 @@
+
+
+
+.box
+{
+	width: 300px;
+	height: 100px;
+	border: 1px solid black;
+
+	padding: 50px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.box1
+{
+	background-color: #90EE90;
+}
+
+.box2
+{
+	position: relative;
+	top: 30px; 
+	left: 40px;
+	background-color: yellow;
+}
+
+.box3
+{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	color: white;
+	background-color: blue;
+}
+
+.box4
+{
+	position: fixed; 
+	background-color: red; 
+	bottom: 0px;
+	left: 0px; 
+	margin: 0;
+}
+
+
+.button 
+{
+	color: #FFF;
+	background-color: #5995DA;    
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5D6063;    
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 5px #777777;	
+
+	width: 100px;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+.button2
+{
+	position: relative;
+	top: 40px; 
+	left: 40px;
+	color: black;
+	background-color: #FFA500;
+}
+
+.button3
+{
+	position: absolute;
+	top: 40px; 
+	right: 40px;
+	color: white;
+	background-color: blue;
+}
+
+.button4
+{
+	position: fixed; 
+	background-color: red; 
+	top: 0;
+	right: 0; 
+	margin: 0;
+}
+
+

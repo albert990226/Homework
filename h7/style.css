@@ -1,0 +1,52 @@
+/*****************
+Стиль веб-страницы
+******************/
+
+
+h1 
+{
+	color: red;
+	text-align: center;
+}
+
+h2
+{
+    color: #0000FF
+    
+}    
+
+
+
+.select 
+{
+	background-color: #FFC0CB;
+}
+
+li
+{
+    background-color: #7F7F7F
+}
+
+
+p 
+{
+	color: green; 
+}
+
+#main
+{
+	background-color: #ADD8E6;
+}
+
+body
+{
+	width: 60%;
+	margin-left: 20%;	
+}
+
+footer
+{
+	text-align: center;
+}
+
+

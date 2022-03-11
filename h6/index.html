@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--
+   index.html
+   
+   
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Урок 1.6</title>
+<meta name="generator" content="Geany 1.33" />
+</head>
+
+<body>
+<h1>Простая форма</h1>
+
+    <form name="form1" action="getform1.php">
+		Имя:<br>
+		<input type="text" name="firstname"><br>
+		Фамилия:<br>
+		<input type="text" name="lastname"><br>
+		<label>Email:<br><input type="email" name="email" placeholder="user@example.com"  required></label><br>
+		<input type="submit" value="Отправить">
+   </form>
+
+
+
+<h1>Группировка данных</h1>
+
+<form name="form2" action="getform2.php">
+  <fieldset>
+       <legend>Личная информация:</legend>
+       Имя:<br>
+       <input type="text" name="firstname" required ><br>
+		Фамилия:<br>
+		<input type="text" name="lastname" required ><br>
+  </fieldset>
+  <fieldset>
+	  <label for="phone">Введите свой номер телефона:</label>
+	  
+	  <input type="tel" id="phone" name="phone"
+	         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+	         required>
+	         
+  <small>Format: 123-456-7890</small>
+  </fieldset>
+<fieldset>
+	<legend>Ввод адреса:</legend>
+	Введите адрес:<br>
+	Государство:<br>
+	    <input type="text" name="state" required ><br>
+	Регион:<br>
+	    <input type="text" name="region" ><br>
+	Город:<br>
+	    <input type="text" name="city" required ><br>
+	Улица:<br>
+	    <input type="text" name="outside" required ><br>
+	Дом №:<br>
+	    <input type="text" name="house number" required ><br>
+</fieldset>
+<fieldset>
+	<legend>Ввод пароля:</legend>
+	 Введите пароль:<br>
+	 <input type="password" name="pass1"><br>
+	 Повторите пароль:<br>
+	 <input type="password" name="pass2"><br><br>
+</fieldset>
+<fieldset>
+	<legend>Интересы:</legend>
+	<p>Любимые музыкальные жанры</p>
+		<ol>
+		   <li><input type="checkbox" name="musik" value="джаз" checked>Джаз</li>
+		   <li><input type="checkbox" name="musik" value="блюз" checked>Блюз</li>
+		   <li><input type="checkbox" name="musik" value="рок">Рок</li>
+		   <li><input type="checkbox" name="musik" value="кантри">Кантри</li>
+	    </ol>
+			
+	<p>Хобби</p>
+		 <select name="hobby" size="7" multiple>
+		    <option selected value="1">Спорт</option>
+			<option value="2">Рыбалка</option>
+			<option value="3">Игры</option>
+			<option value="4">Животные</option>
+			<option value="5">Путешествия</option>
+			<option value="6">Танцы</option>
+			<option value="7">Театр</option>
+		</select>
+		
+</fieldset>
+     <input type="submit" value="Отправить">
+     </form>
+     
+<h1>Выбор вариантов и комментарий</h1>
+		<form name="form3" action="getform3.php">
+	<fieldset>
+				<legend>Контактная информация</legend>
+				<label>Email:<br><input type="email" name="email" placeholder="user@example.com"></label><br>
+			</fieldset>
+
+	<fieldset>
+		<legend>Обращение</legend>			
+		<select name="variant" required="required">
+		        <option value="">Выберите вариант</option>
+		        <option>Комбинированное меню</option>
+			    <option>Индивидуальные настройки</option>
+				<option>Настройки по умолчанию</option>
+		</select><br>
+				<textarea name="message" rows="10" cols="50"></textarea><br>
+	</fieldset>	
+	<fieldset>				
+				<legend>Скриншот</legend>							
+				Отправьте скриншот ошибки<br>
+				<input type="file" name="load" size="50"><br>
+	</fieldset>			
+			<input type="submit" value="Отправить">
+		</form>
+						     
+
+</body>
+
+</html>
