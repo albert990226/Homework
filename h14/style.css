@@ -1,0 +1,168 @@
+
+
+.flex1 
+{
+	  display: flex;
+	  background-color: #1E90FF;
+	  flex-direction: column;
+}
+
+.flex1 div 
+{
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 10px;
+	  text-align: center;
+	  line-height: 75px;
+	  font-size: 30px;
+}
+
+.flex2 
+{
+	  display: flex;
+	  justify-content: flex-end;
+	  background-color: #1E90FF;
+}
+
+.flex2 div 
+{
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 10px;
+	  text-align: center;
+	  line-height: 75px;
+	  font-size: 30px;
+}
+
+.flex3 
+{
+	  display: flex;
+	  flex-direction: column-reverse;
+	  background-color: #1E90FF;
+}
+
+.flex3 div 
+{
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 10px;
+	  text-align: center;
+	  line-height: 75px;
+	  font-size: 30px;
+}
+
+.flex4 
+{
+	  display: flex;
+	  flex-wrap: wrap;
+	  background-color: #1E90FF;
+}
+
+.flex4 div 
+{
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 10px;
+	  text-align: center;
+	  line-height: 75px;
+	  font-size: 30px;
+}
+/*
+
+.flex5 
+{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #1E90FF;
+}
+
+
+.flex5
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1E90FF;
+}
+
+*/
+
+.flex5
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E90FF;
+}
+
+.flex5 div 
+{
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+/*
+
+.flex6 
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	background-color: #1E90FF;
+}
+
+
+.flex6
+{
+    display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 200px;
+	background-color: #1E90FF;
+}
+
+*/
+
+.flex6
+{
+    display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	height: 200px;
+	background-color: #1E90FF;
+}
+
+
+
+.flex6 div 
+{
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+.flex7 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color: #1E90FF;
+}
+
+.flex7 div 
+{
+	background-color: #f1f1f1;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
