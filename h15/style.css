@@ -1,0 +1,58 @@
+
+.box
+{
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.box:hover 
+{
+    background-color: #A52A2A;
+}
+
+
+.menu 
+{
+    height: 46px;
+    background-color: #333;
+}
+
+.menu a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.menu a:hover 
+{
+    background-color: #FF0000;
+    color: black;
+}
+
+
+h2::first-letter 
+{  
+	font-size: 200%;
+	color: blue; 
+}
+
+h1:hover
+{
+   background-color: #FFFF00;
+}
+
+h2:hover
+{
+   background-color: #FFFF00;
+}
+
+
+
+
