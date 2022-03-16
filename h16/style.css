@@ -1,0 +1,159 @@
+
+body
+{
+   margin: 0;
+}
+
+img
+{
+   width: 100%;
+}
+
+.sale
+{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #0000FF;
+	height: 100px;
+	color: red;
+}
+
+
+/* Секция header */
+.header
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: yellowgreen;
+	height: 100px;
+}
+
+
+/* Секция menu */
+.menu
+{
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.menu a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Секция main */
+
+.main
+{
+	display: flex;	
+}
+
+.mainbox
+{
+    flex: 50%;
+    padding: 25px;
+   	background: beige;
+}
+
+.leftbox
+{
+    flex: 25%;
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.rightbox
+{
+    flex: 25%;
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.news
+{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background: #FFFF00;
+	height: 150px;
+
+}
+
+.news_left
+{
+
+	justify-content: center;
+	align-items: center;
+    background: #FF1493;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+}
+
+.news_left a
+{
+    color: #FFC0CB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news_left a:hover
+{
+    background: #DB7093;
+}
+
+.news_right
+{
+
+	justify-content: center;
+	align-items: center;
+    background: #32CD32;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+}
+.news_right a
+{
+    color: #7FFF00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news_right a:hover
+{
+    background: #00FA9A;
+}
+
+/* Секция footer */
+
+.footer 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: yellowgreen;
+	height: 100px;
+}
+
+
+

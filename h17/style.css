@@ -1,0 +1,184 @@
+
+
+
+
+/* Секция header */
+.header
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: yellowgreen;
+	height: 100px;
+    width: 100%;
+}
+
+
+/* Секция menu */
+.menu
+{
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.menu a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Секция main */
+
+.main
+{
+	display: flex;	
+}
+
+.mainbox
+{
+    flex: 50%;
+    padding: 10px;
+   	background: beige;
+}
+
+
+.leftbox
+{
+    flex: 25%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.rightbox
+{
+    flex: 25%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Секция news */
+
+.news 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: yellowgreen;
+	height: 50px;
+}
+
+/* Секция footer */
+
+.footer 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: yellowgreen;
+	height: 100px;
+}
+
+
+/* Секция cards */
+
+.cards 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: beige;
+}
+
+
+
+.card 
+{
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    background: beige;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+
+.card img 
+{
+    max-width: 100%;
+}
+
+.card .text 
+{
+    padding: 0 20px 20px;
+}
+
+.card .text button 
+{
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.card .text button:hover
+{
+    background-color: #FF0000;
+    color: black;
+}
+
+
+.card2 
+{
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    background: beige;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+
+.card2 img 
+{
+    max-width: 100%;
+}
+
+.card2 .text 
+{
+    padding: 0 20px 20px;
+}
+
+.card2 .text button 
+{
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.card2 .text button:hover
+{
+    background-color: #FF0000;
+    color: black;
+}
+
+
+
