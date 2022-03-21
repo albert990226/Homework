@@ -1,0 +1,152 @@
+body
+{
+	margin: 0;
+}
+
+
+
+.grid1
+{
+	display: grid; 
+	grid-template-areas:"a a a"
+						"b b b"
+						"c c c";
+}
+
+.grid1 > div 
+{
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1px;
+    color: #d9480f;
+}
+
+.grid2
+{
+	display: grid; 
+	grid-template-areas:"a a a"
+						"b b b"
+						"c c c";
+	grid-template-rows: 1fr 2fr 3fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+						
+}
+
+.grid2 > div 
+{
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1px;
+    color: #d9480f;
+}
+
+.grid3
+{
+	display: grid; 
+	grid-template-areas:"a a a"
+						"b b b"
+						"c c c";
+						
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	grid-row-gap: 10px;
+	grid-column-gap: 5px;
+
+	justify-content: space-around; 							
+}
+
+.grid3 > div 
+{
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1px;
+    color: #d9480f;
+}
+
+
+.grid4
+{
+	display: grid; 
+	grid-template-areas:"a a a"
+						"b b b"
+						"c c c";
+
+	justify-content: center;
+}
+
+.grid4 > div 
+{
+    width: 200px;
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1px;
+    color: #d9480f;
+}
+
+.grid5
+{
+	display: grid; 
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+}
+
+.grid5 > div 
+{
+    width: 200px;
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1px;
+    color: #d9480f;
+}
+
+/* Область item5 начинается row-line 1 и column-line 2, и заканчивается row-line 3 column-line 3: */
+.item5 
+{
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+
+
+.flex
+{
+	display: flex;
+	justify-content: center;
+	background: yellowgreen;
+	padding: 5px;
+}
+
+.grid6
+{
+    display: grid;
+    width: 500px;
+    color: #d9480f;
+    background-color: #ffd8a8;
+    padding: 10px;
+    justify-content: center;
+   	align-items: center;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-gap: 5px;
+
+}
+
+.grid6 > label  
+{
+    grid-column: labels;
+    grid-row: auto;
+}
+ 
+.grid6 > input,
+.grid6 > button 
+{
+    grid-column: controls;
+    grid-row: auto;
+    border: none;
+    padding: 5px;
+}
