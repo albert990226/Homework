@@ -1,0 +1,240 @@
+
+
+
+
+@media screen and (max-width: 1200px) 
+{
+  .text1, .text2, .text3 p
+  {
+    font-size: 2rem;
+  }
+  
+  .main img 
+  {
+	  width: 100%;
+	  height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) 
+{
+  
+  .pic1, .pic2, .pic3
+  {
+    display: none;
+  }
+  
+  .text1, .text2, .text3
+  {
+    flex: 100%;
+    margin: 2vw;
+  }
+  
+  .main
+  {
+  	background: beige;
+  }
+}
+
+
+
+html
+{
+    font-size: 10px;
+}
+
+body 
+{
+	background-color: #fff;
+	font-family: "OpenSans";
+    font-size: 15px;
+	
+	margin: 0;
+}
+
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: beige;
+
+}
+
+.logo
+{
+    flex: 20%;
+    padding-left: 50px;
+    padding-top: 25px;
+   	background: beige;
+}
+
+.menu 
+{
+    overflow: hidden;
+    background-color: #0099cc;   
+}
+
+.menu a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.menu a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.hello
+{
+	display: flex;
+	justify-content: center;	
+	background-color: #0099cc;
+}
+
+.hello h1
+{
+	color: white;
+}
+
+/* Секция main */
+
+.main
+{
+	display: flex;	
+}
+
+.pic1
+{
+    flex: 50%;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.text-serif
+{
+    margin: 0 auto;
+	max-width: 300px;
+   
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+.text-sans-serif
+{
+    margin: 0 auto;
+	max-width: 300px;
+   
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-monospace
+{
+    margin: 0 auto;
+	max-width: 300px;
+   
+	font-family: "Courier New";
+}
+
+
+
+.text-scroll
+{
+    margin: 0 auto;
+	max-width: 300px;
+
+    height:200px;
+    border: 1px solid black;
+    overflow: scroll;
+
+}
+
+.text-roboto
+{
+    margin: 0 auto;
+	max-width: 300px;
+	
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-roboto-italic
+{
+    margin: 0 auto;
+	max-width: 300px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+
+.text-roboto-bold
+{
+    margin: 0 auto;
+	max-width: 300px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+}
+
+.text-decor
+{
+	text-decoration: line-through;
+} 
+
+.text1
+{
+    flex: 50%;
+    padding: 25px;
+    background-color: #FFC0CB;
+    text-align: center;  
+}
+
+.text2
+{
+    flex: 50%;
+    padding: 25px;
+    background-color: #FFC0CB;
+    text-align: center;   
+}
+
+
+.text3
+{
+    flex: 50%;
+    background-color: #FFC0CB;
+    padding: 25px;
+    text-align: center;   
+}
+
+.pic2
+{
+    flex: 50%;
+    padding: 25px;
+    text-align: center;
+}
+
+.pic3
+{
+    flex: 50%;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.footer 
+{
+	  background-color: #0099cc;
+	  color: #ffffff;
+	  text-align: center;
+	  font-size: 12px;
+	  padding: 15px;
+}
