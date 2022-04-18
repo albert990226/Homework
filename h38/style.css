@@ -1,0 +1,45 @@
+
+.jumbotron-fluid 
+{
+	background-image: url("img/bg-start.jpg");
+	background-position: 0% 25%;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	margin: 0;
+}
+
+.jumbotron
+{
+	color: white;
+	background-color: black;
+	margin: 0;
+}
+
+.card
+{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.showcase .showcase-text 
+{
+	padding: 3rem;
+}
+
+.showcase .showcase-img 
+{
+	min-height: 30rem;
+	background-size: cover;
+}
+
+section 
+{
+  padding: 60px 0;
+}
+
+.section-bg
+{
+  background-color: #f8f9fa;
+}
